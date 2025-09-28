@@ -5,6 +5,13 @@ class MyImageWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Image(image: AssetImage("images/logo_polinema.jpg"));
+    return Center(
+      child: Image.asset(
+        "images/logo_polinema.jpg",
+        width: 200, // atur sesuai kebutuhan
+        height: 200,
+        fit: BoxFit.cover,
+      ),
+    );
   }
 }

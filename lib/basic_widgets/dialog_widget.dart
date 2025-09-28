@@ -5,14 +5,12 @@ class Step4Dialog extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: ElevatedButton(
-          child: const Text('Show alert'),
-          onPressed: () {
-            showAlertDialog(context);
-          },
-        ),
+    return Center(
+      child: ElevatedButton(
+        child: const Text('Show alert'),
+        onPressed: () {
+          showAlertDialog(context);
+        },
       ),
     );
   }

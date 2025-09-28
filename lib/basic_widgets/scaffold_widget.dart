@@ -18,26 +18,17 @@ class _Step3ScaffoldState extends State<Step3Scaffold> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: const Text("My Increment App")),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            const Text('You have pushed the button this many times:'),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headlineMedium,
-            ),
-          ],
+    return Column(
+      children: [
+        const Text('You have pushed the button this many times:'),
+        Text('$_counter', style: Theme.of(context).textTheme.headlineMedium),
+        const SizedBox(height: 10),
+        FloatingActionButton(
+          onPressed: _incrementCounter,
+          tooltip: 'Increment Counter',
+          child: const Icon(Icons.add),
         ),
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment Counter',
-        child: const Icon(Icons.add),
-      ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+      ],
     );
   }
 }
