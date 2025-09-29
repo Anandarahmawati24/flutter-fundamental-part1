@@ -1,5 +1,9 @@
 # hello_world
 
+Nama: Ananda Rahmawati
+
+NIM: 2341720048
+
 A new Flutter project.
 
 ![Screenshot hello_world](images/01.png)
@@ -46,3 +50,6 @@ A new Flutter project.
 ![Date and Time Pickers](images/praktikum5_6_1.png)
 ![Date and Time Pickers](images/praktikum5_6_2.png)
 ![Date and Time Pickers](images/praktikum5_6_3.png)
+
+## Tampilan Pada Mobile 
+![Tampilan pada mobile](images/mobile.jpeg)
